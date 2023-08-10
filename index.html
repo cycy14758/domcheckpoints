@@ -75,22 +75,6 @@
 
 
 
-    <!-- Example Code -->
-    
-    <div class="card">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/3.webp"
-  alt="Apple Computer" />
-    
-      <div class="card-body">
-        <h5 class="card_title">Apple Computer</h5>
-        <p class="card-text">Studio Display - Standard glass - Tilt- and height-adjustable 
-                    $1,999.00</p>
-                    <button class="btn btn-primary   btn1+" >+</button>
-                    <a  class="btn btn-primary c1">0</a>
-                    <button class="btn btn-primary  btn1-">-</button>
-                    <i class="fa-solid fa-heart"></i>
-      </div>
-    </div>
     
     <!-- End Example Code -->
 
@@ -100,7 +84,7 @@
       alt="iPhone" />
           <h5 class="card_title">ipad-air</h5>
           <p class="card-text"> And A16 Bionic  
-            From $999.</p>
+            From <span  class="prix">999</span> $.</p>
             <button class="btn btn-primary   btn1+" >+</button>
           <a  class="btn btn-primary c1">0</a>
           <button class="btn btn-primary  btn1-">-</button>
@@ -117,7 +101,7 @@
              
               alt="Laptop" />
           <h5 class="card_title">Laptop</h5>
-          <p class="card-text">Our most powerful Mac lineup ever. Supercharged by Apple silicon. With the security and reliability of macOS  for 12 mo. or $1099.</p>
+          <p class="card-text">Our most powerful Mac lineup ever. Supercharged by Apple silicon. With the security and reliability of macOS  for 12 mo. or $ <span  class="prix"  >1099</span> .</p>
           <button class="btn btn-primary   btn1+" >+</button>
           <a  class="btn btn-primary c1">0</a>
           <button class="btn btn-primary  btn1-">-</button>
@@ -134,7 +118,7 @@
       <h5 class="card_title">Silicone_iphone</h5>
       <p class="card-text">
  the Silicone Case with MagSafe is a delightful way to protect your iPhone.frgetgetgeagrrgergergr
-49 $
+  <span  class="prix"  >49</span> $</p>
 <button class="btn btn-primary   btn1+" >+</button>
 <a  class="btn btn-primary c1">0</a>
 <button class="btn btn-primary  btn1-">-</button>
@@ -144,14 +128,13 @@
   <!--*********************************************************-->
 
   <div class="card1" style="width: 18rem;">
-    <ul class="list-group list-group-flush",id="parent">
+    <ul class="list-group list-group-flush" id="parent">
       
     
-      <li class="list-group-item">An item</li>
      
     </ul>
     <div class="card-footer">
-      Totale:
+      Totale:<span id="total" >0</span>$
     </div>
   </div>
     <script src="./index.js"></script>
